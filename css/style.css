@@ -1,0 +1,576 @@
+
+
+html{
+font-family:"arapey";}
+
+
+
+@font-face{ font-family: "arapey";    src: url(../assets/fonts/Arapey.zip);
+}
+
+
+
+
+/*-----------------------------------------------css del index--------------------------------------------------------*/
+
+.body{background-image: url(../assets/img/fondoinic.jpg) ;
+height: 100%;
+width: 100%;
+background-size: 100%;}
+.titulo{
+    font-size: 110px;
+    color: aliceblue;
+text-align: center;
+
+}
+
+.h2index{font-size: 50px;
+text-align: center;
+text-decoration: linen;
+color: aliceblue;
+
+    width: 100%;
+    text-decoration: underline double black;
+}
+
+
+
+.menu-container{padding: 15px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 0;
+}
+
+.menu-container nav ul {margin: 0;
+   list-style: none;
+  padding: 0;
+  
+    width: 100%;
+   
+}
+.menu-container nav li{ display: inline-block;
+margin-right: 20px;
+text-align: center;
+}                                         
+.menu-container nav a {
+    display: block;
+    padding: 5px  20px;
+    color: rgb(248, 243, 243);
+    text-decoration: none;
+}  
+
+.menu-container a:hover{ 
+    background-color: antiquewhite;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+    
+    font-family:"arapey" ;
+
+}
+
+.h2-menu{color: #f7f3ec;}/* h2 -"hoovert oficial" escrito en los menus*/
+.menu{font-size: 20px;           /* control de fuente y tamaño de menu de todos los html*/
+    border: 3px #f7f3ec solid;}
+
+
+
+.main-container{padding: 150px;
+margin: 20px;}
+
+
+
+.main-container  div p { margin: 10px;
+padding: 10px;
+color: rgb(251, 251, 252);
+font-size: 28px;
+width: 100%;}
+
+.container-galeria{display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+div.div-galeria{display: flex;
+width: 140%;
+justify-content: space-between;}
+
+
+div.galeria{ display: flex;
+    margin: 63px 59px;
+    box-shadow: 0 4px 8px 0 whitesmoke;
+    width: 140px;}
+    
+    div.galeria img{width: 350px;
+        height: 302px;
+        display: flex;
+    }
+    div.galeria:hover{ border: 1px solid white;
+    transform: rotate(-3deg);}
+
+
+
+.parrafoinic{ color: rgb(247, 250, 252);
+    background-color: rgb(75, 74, 74);
+}
+
+
+
+
+.vidinicio{width: 100%;
+   
+animation-duration: 6s ;
+height: 250px;
+
+
+}
+
+
+.flechaEnviar{width: 15px; 
+    height: 20px;
+    border: none; 
+}
+
+
+.footer{display: flex;
+    flex-wrap: wrap;
+color: whitesmoke;
+width: 100%;
+height: 100%;
+text-align: end;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------css de buzos---------------------------------------------------------*/
+
+.body-buzo{width: 100%;
+height: 100%;
+background-image: url(../assets/img/fondobuzo.jpeg);
+background-size: 100%;}
+ 
+
+
+.h1buzo{
+    font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+text-align: center;
+font-weight: bold;
+background-position: 100px;}
+
+
+
+.menu-buzo{padding: 15px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 0;}
+
+
+    .menu-buzo nav ul {margin: 0;
+        list-style: none;
+       padding: 0;
+       
+         width: 100%;
+        
+     }
+     .menu-buzo nav li{ display: inline-block;
+     margin-right: 20px;
+     text-align: center;
+     }                                         
+     .menu-buzo nav a {
+         display: block;
+         padding: 5px  20px;
+         color: rgb(7, 7, 7);
+         text-decoration: none;
+     }  
+     
+     .menu-buzo a:hover{ 
+         background-color: antiquewhite;
+         color: rgb(26, 24, 24);
+         font-weight: bold;
+         
+         font-family:"arapey" ;
+     
+     }
+
+/*----------------------------------------------css de compra--------------------------------------------------------*/
+.h1comprar{font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+text-align: center;
+font-weight: bold;
+background-position: 100px;}
+
+
+.menu-comprar{padding: 15px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 0;}
+
+
+
+   
+    
+        .menu-comprar nav ul {margin: 0;
+            list-style: none;
+           padding: 0;
+           
+             width: 100%;
+            
+         }
+         .menu-comprar nav li{ display: inline-block;
+         margin-right: 20px;
+         text-align: center;
+         }                                         
+         .menu-comprar nav a {
+             display: block;
+             padding: 5px  20px;
+             color: rgb(7, 7, 7);
+             text-decoration: none;
+         }  
+         
+         .menu-comprar a:hover{ 
+             background-color: antiquewhite;
+             color: rgb(26, 24, 24);
+             font-weight: bold;
+             
+             font-family:"arapey" ;
+         
+         }
+
+
+/*-----------------------------------------------css de gorros-------------------------------------------------------*/
+.body-gorro{width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/gorroblanco.jpeg);
+    background-size: 100%;
+
+}
+
+
+.h1gorros{font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+text-align: center;
+font-weight: bold;
+background-position: 100px;}
+
+
+.menu-gorros{padding: 15px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 0;}
+
+
+    
+    
+    
+        .menu-gorros nav ul {margin: 0;
+            list-style: none;
+           padding: 0;
+           
+             width: 100%;
+            
+         }
+         .menu-gorros nav li{ display: inline-block;
+         margin-right: 20px;
+         text-align: center;
+         }                                         
+         .menu-gorros nav a {
+             display: block;
+             padding: 5px  20px;
+             color: rgb(7, 7, 7);
+             text-decoration: none;
+         }  
+         
+         .menu-gorros a:hover{ 
+             background-color: antiquewhite;
+             color: rgb(26, 24, 24);
+             font-weight: bold;
+             
+             font-family:"arapey" ;
+         
+         }
+
+/*------------------------------------------------css de ponchos y ruanas----------------------------------------------*/
+
+.body-pyr{width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondobuzo.jpeg);
+    background-size: 100%;}
+
+
+.h1pyr{font-size: 50px;
+    font-style: italic;
+    color: rgb(5, 5, 5);
+text-align: center;
+font-weight: bold;
+margin: 100px;
+    padding: 100px;
+    text-decoration: underline double black;
+}
+
+
+.menu-pyr{padding: 15px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    
+    top: 0;}
+
+    
+    
+        .menu-pyr nav ul {margin: 0;
+            list-style: none;
+           padding: 0;
+           
+             width: 100%;
+            
+         }
+         .menu-pyr nav li{ display: inline-block;
+         margin-right: 20px;
+         text-align: center;
+         }                                         
+         .menu-pyr nav a {
+             display: block;
+             padding: 5px  20px;
+             color: rgb(243, 237, 237);
+             text-decoration: none;
+         }  
+         
+         .menu-pyr a:hover{ 
+             background-color: antiquewhite;
+             color: rgb(3, 3, 3);
+             font-weight: bold;
+             
+             font-family:"arapey" ;
+         
+         }
+
+/*------------------------------------------------css de remera-------------------------------------------------------*/
+
+.body-remera{width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fondoremeras.jpg);
+    background-size: 100%;}
+
+
+
+
+.h1remera{font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+text-align: center;
+font-weight: bold;
+background-position: 100px;
+margin: 100px;
+padding: 10px;}
+
+
+
+
+
+
+    .menu-remera{padding: 15px;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        
+        top: 0;
+    display: flex;}
+    
+    
+        .menu-remera nav ul {margin: 0;
+            list-style: none;
+           padding: 0;
+           
+             width: 100%;
+            
+         }
+         .menu-remera nav li{ display: inline-block;
+         margin-right: 20px;
+         text-align: center;
+         
+         }                                         
+         .menu-remera nav a {
+             display: block;
+             padding: 5px  20px;
+             color: rgb(247, 238, 238);
+             text-decoration: none;
+         }  
+         
+         .menu-remera a:hover{ 
+             background-color: antiquewhite;
+             color: rgb(26, 24, 24);
+             font-weight: bold;
+             
+             font-family:"arapey";
+         }
+    
+     .main-remera{display: flex;
+    justify-content: center;}    
+
+.main-remera section-remera{ width: 100%;
+display: flex;
+}
+
+.img-remera{width: 350px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------..............css de contacto----------------------------------------------------*/
+
+.body-contacto{background-image: url(../assets/img/);}
+
+
+
+
+.h1contacto{ font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+text-align: center;
+font-weight: bold;
+background-position: 100px;}
+
+
+
+.menu-contacto{padding: 15px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    top: 0;}
+
+
+    
+    
+    
+        .menu-contacto nav ul {margin: 0;
+            list-style: none;
+           padding: 0;
+           
+             width: 100%;
+            
+         }
+         .menu-contacto nav li{ display: inline-block;
+         margin-right: 20px;
+         text-align: center;
+         }                                         
+         .menu-contacto nav a {
+             display: block;
+             padding: 5px  20px;
+             color: rgb(7, 7, 7);
+             text-decoration: none;
+         }  
+         
+         .menu-contacto a:hover{ 
+             background-color: antiquewhite;
+             color: rgb(26, 24, 24);
+             font-weight: bold;
+             
+             font-family:"arapey" ;
+         
+         }
+
+
+.footer-contacto ul li{list-style: none;}
+
+
+
+
+
+
+.instaimg{ width: 50px; 
+height: 50px;
+
+}
+
+.whapimg{width: 50px; 
+    height: 50px;
+    
+   }
+
+.tiktokimg{width: 50px; 
+    height: 50px;
+
+
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+.container div a { text-decoration: none;
+color: #f7f3ec;
+background-color: black;
+width: 100%;
+top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
