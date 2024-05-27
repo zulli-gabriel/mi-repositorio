@@ -21,7 +21,7 @@ font-size: 20px;
 .body{background-image: url(../assets/img/fondoinic.jpg) ;
 height: 100%;
 width: 100%;
-background-size: 100%;}
+background-size: 100%; overflow-x: hidden;}
 .titulo{
     font-size: 110px;
     color: aliceblue;
@@ -162,7 +162,7 @@ text-align: end;}
 .body-buzo{width: 100%;
 height: 100%;
 background-image: url(../assets/img/fondobuzo.jpeg);
-background-size: 100%;}
+background-size: 100%;overflow-x: hidden;}
  
 
 
@@ -265,7 +265,7 @@ background-position: 100px;}
     height: 100%;
     background-image: url(../assets/img/gorroblanco.jpeg);
     background-size: 100%;
-
+    overflow-x: hidden;
 }
 
 
@@ -320,7 +320,7 @@ background-position: 100px;}
 .body-pyr{width: 100%;
     height: 100%;
     background-image: url(../assets/img/fondobuzo.jpeg);
-    background-size: 100%;}
+    background-size: 100%; overflow-x: hidden;}
 
 
 .h1pyr{font-size: 50px;
@@ -375,7 +375,7 @@ margin: 100px;
 .body-remera{width: 100%;
     height: 100%;
     background-image: url(../assets/img/fondoremeras.jpg);
-    background-size: 100%;}
+    background-size: 100%; overflow-x: hidden;}
 
 
 
@@ -453,7 +453,7 @@ display: flex;
 
 /*-------------------------------------..............css de contacto----------------------------------------------------*/
 
-.body-contacto{background-image: url(../assets/img/);}
+.body-contacto{background-image: url(../assets/img/); overflow-x: hidden;}
 
 
 
