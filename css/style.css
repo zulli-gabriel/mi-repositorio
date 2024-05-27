@@ -274,7 +274,8 @@ background-position: 100px;}
     color: aliceblue;
 text-align: center;
 font-weight: bold;
-background-position: 100px;}
+background-position: 100px; 
+margin: 100px;}
 
 
 .menu-gorros{padding: 15px;
@@ -533,7 +534,7 @@ height: 50px;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
-
+.img{width: 350px;}
 
 
 
